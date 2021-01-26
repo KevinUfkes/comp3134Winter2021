@@ -1,0 +1,16 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# ping www.cbc.ca. -w 10
+PING e5220.e12.akamaiedge.net (23.201.192.189) 56(84) bytes of data.
+64 bytes from a23-201-192-189.deploy.static.akamaitechnologies.com (23.201.192.189): icmp_seq=1 ttl=55 time=9.28 ms
+64 bytes from a23-201-192-189.deploy.static.akamaitechnologies.com (23.201.192.189): icmp_seq=2 ttl=55 time=8.61 ms
+64 bytes from a23-201-192-189.deploy.static.akamaitechnologies.com (23.201.192.189): icmp_seq=3 ttl=55 time=8.53 ms
+64 bytes from a23-201-192-189.deploy.static.akamaitechnologies.com (23.201.192.189): icmp_seq=4 ttl=55 time=8.52 ms
+64 bytes from a23-201-192-189.deploy.static.akamaitechnologies.com (23.201.192.189): icmp_seq=5 ttl=55 time=8.63 ms
+64 bytes from a23-201-192-189.deploy.static.akamaitechnologies.com (23.201.192.189): icmp_seq=6 ttl=55 time=9.03 ms
+64 bytes from a23-201-192-189.deploy.static.akamaitechnologies.com (23.201.192.189): icmp_seq=7 ttl=55 time=8.53 ms
+64 bytes from a23-201-192-189.deploy.static.akamaitechnologies.com (23.201.192.189): icmp_seq=8 ttl=55 time=8.51 ms
+64 bytes from a23-201-192-189.deploy.static.akamaitechnologies.com (23.201.192.189): icmp_seq=9 ttl=55 time=8.65 ms
+64 bytes from a23-201-192-189.deploy.static.akamaitechnologies.com (23.201.192.189): icmp_seq=10 ttl=55 time=8.55 ms
+
+--- e5220.e12.akamaiedge.net ping statistics ---
+10 packets transmitted, 10 received, 0% packet loss, time 9014ms
+rtt min/avg/max/mdev = 8.508/8.683/9.283/0.247 ms

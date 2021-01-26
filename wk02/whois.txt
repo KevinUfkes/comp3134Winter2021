@@ -1,0 +1,80 @@
+Domain:cbc.ca
+Registrar:Authentic Web Inc.
+Registered On:2000-10-16
+Expires On:2021-11-24
+Updated On:2020-11-24
+Status:clientTransferProhibited
+clientUpdateProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:a1-29.akam.net
+a14-66.akam.net
+a26-67.akam.net
+a4-64.akam.net
+a5-65.akam.net
+a9-66.akam.net
+
+
+Domain:newegg.ca
+Registrar:CSC Corporate Domains (Canada) Company
+Registered On:2001-08-29
+Expires On:2021-08-29
+Updated On:2020-03-16
+Status:clientTransferProhibited
+Name Servers:a1-21.akam.net
+a16-66.akam.net
+a24-67.akam.net
+a28-64.akam.net
+a7-65.akam.net
+a9-66.akam.net
+
+
+Domain:avalanche.ca
+Registrar:Gandi Services Inc., Gandi SAS
+Registered On:2000-10-03
+Expires On:2021-06-05
+Updated On:2020-04-11
+Status:clientTransferProhibited
+Name Servers:ns-1372.awsdns-43.org
+ns-1563.awsdns-03.co.uk
+ns-508.awsdns-63.com
+ns-648.awsdns-17.net
+
+
+Domain:youtube.ca
+Registrar:MarkMonitor International Canada Ltd.
+Registered On:2005-12-22
+Expires On:2021-12-22
+Updated On:2020-12-22
+Status:clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:ns1.google.com
+ns2.google.com
+ns3.google.com
+ns4.google.com
+
+
+Domain:amazon.ca
+Registrar:MarkMonitor International Canada Ltd.
+Registered On:2000-09-19
+Expires On:2024-07-16
+Updated On:2020-07-16
+Status:clientDeleteProhibited
+clientTransferProhibited
+clientUpdateProhibited
+serverDeleteProhibited
+serverTransferProhibited
+serverUpdateProhibited
+Name Servers:ns1.p31.dynect.net
+ns2.p31.dynect.net
+pdns1.ultradns.net
+pdns3.ultradns.org
+pdns4.ultradns.org
+pdns5.ultradns.info
+
+

@@ -1,0 +1,23 @@
+Domain Name: rbc.com
+IP Address: 204.74.99.100
+Geolocation: US (United States), CA, California, 94401 San Mateo - Google Maps
+
+
+Domain Name: canadacomputers.ca
+IP Address: 35.186.238.101
+Geolocation: US (United States), CA, California, 94043 Mountain View
+
+
+Domain Name: lego.com
+IP Address: 23.200.1.56
+Geolocation: US (United States), MA, Massachusetts, 02142 Cambridge
+
+
+Domain Name: merriam-webster.com
+IP Address: 13.225.210.76
+Geolocation: US (United States), CT, Connecticut, 06850 Norwalk
+
+
+Domain Name: history.ca
+IP Address: 13.225.65.108
+Geolocation: US (United States), CT, Connecticut, 06850 Norwalk

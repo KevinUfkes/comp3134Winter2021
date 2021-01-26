@@ -1,0 +1,20 @@
+ tracert 138.197.150.27
+
+Tracing route to 138.197.150.27 over a maximum of 30 hops
+
+  1    <1 ms    <1 ms    <1 ms  testwifi.here [192.168.86.1]
+  2     1 ms     1 ms     1 ms  FLYNN-FLYNN [10.189.136.184]
+  3    10 ms    14 ms    10 ms  24.67.160.1
+  4    28 ms    34 ms    31 ms  rd3cs-be113-1.ok.shawcable.net [64.59.169.25]
+  5    24 ms    27 ms    28 ms  rd3ht-be10.ok.shawcable.net [66.163.72.194]
+  6    30 ms    29 ms    32 ms  209.205.110.197.a30-6b.cipherkey.net [209.205.110.197]
+  7    31 ms    30 ms    33 ms  v1101.core1.yvr1.he.net [65.19.155.129]
+  8    43 ms    42 ms    43 ms  100ge0-31.core2.yyc1.he.net [184.105.64.114]
+  9    56 ms    55 ms    55 ms  100ge10-2.core1.ywg1.he.net [184.105.222.97]
+ 10    76 ms    86 ms    75 ms  100ge6-2.core1.tor1.he.net [184.105.64.101]
+ 11    76 ms    77 ms    76 ms  digitalocean.ip4.torontointernetxchange.net [206.108.35.15]
+ 12    76 ms    88 ms    77 ms  138.197.249.91
+ 13     *        *        *     Request timed out.
+ 14   173 ms    76 ms    77 ms  138.197.150.27
+
+Trace complete.
