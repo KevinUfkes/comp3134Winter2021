@@ -1,0 +1,24 @@
+Server Port
+
+A number that informs a receiving device on a network which application the data is for.
+
+
+
+Server Port Range
+
+0-65353
+
+
+
+Number of Bits
+
+16 bits
+
+
+
+Common Server Ports
+
+80, 443, 143, 53, 67, 68, 110, 3389, 23, 20
+
+
+
