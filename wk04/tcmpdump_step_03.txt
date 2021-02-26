@@ -1,0 +1,16 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -A -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:17:48.371160 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4172132374:4172132482, ack 2063636363, win 501, length 108
+E.....@.@.ei....B3..........{...P.......L.....k...&...N|..G...S...W.Rx....      =.7.0r....4.`.S...4.v..G.o.|....[.{4.......I.6,..k.>.f ..wCI....kG..;S...
+18:17:48.371228 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 108:144, ack 1, win 501, length 36
+E..L..@.@.e.....B3..........{...P....:......<|e..=+\.....?..)@......8..<8.@.
+18:17:48.371292 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 144:252, ack 1, win 501, length 108
+E.....@.@.eg....B3..........{...P..........J....^.....$.7h      H.....M.U`....b......d......v1;........<u,.I....[...;..qU}...?...Q.8A.u..E.G.@....t>...l.
+18:17:48.371326 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 252:288, ack 1, win 501, length 36
+E..L..@.@.e.....B3..........{...P....:..v.g{.,...b.~....*..s.   .......6-.      7.C
+18:17:48.371657 IP 138.197.150.27.59508 > dns.google.domain: 43803+ PTR? 232.142.51.66.in-addr.arpa. (44)
+E..HW.@.@............t.5.416.............232.142.51.66.in-addr.arpa.....
+5 packets captured
+15 packets received by filter
+0 packets dropped by kernel

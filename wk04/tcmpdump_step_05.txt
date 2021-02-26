@@ -1,0 +1,51 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -XX -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:20:00.879731 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4174288854:4174288962, ack 2063642911, win 501, length 108
+        0x0000:  fe00 0000 0101 9e34 6cfe 6e9e 0800 4510  .......4l.n...E.
+        0x0010:  0094 ee83 4000 4006 59d4 8ac5 961b 4233  ....@.@.Y.....B3
+        0x0020:  8ee8 0016 cb17 f8ce 97d6 7b00 b11f 5018  ..........{...P.
+        0x0030:  01f5 f282 0000 40a9 4def 0217 d6b0 0501  ......@.M.......
+        0x0040:  8551 8484 d019 b80e 2a54 2800 5b69 2793  .Q......*T(.[i'.
+        0x0050:  6fea 3240 c0fa df7d 8589 4b59 3a1d b4e1  o.2@...}..KY:...
+        0x0060:  cda5 2f3d f2f6 af50 a5f8 f964 7e47 f96f  ../=...P...d~G.o
+        0x0070:  6709 b450 1d5e 8ae6 8270 2288 7a46 4a72  g..P.^...p".zFJr
+        0x0080:  6fb7 ec64 2e6a ebc1 9867 890c 4b6d 1ea5  o..d.j...g..Km..
+        0x0090:  0459 afe2 da9c 9de6 5760 b19e 8280 f6c4  .Y......W`......
+        0x00a0:  75a2                                     u.
+18:20:00.879792 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 108:144, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 9e34 6cfe 6e9e 0800 4510  .......4l.n...E.
+        0x0010:  004c ee84 4000 4006 5a1b 8ac5 961b 4233  .L..@.@.Z.....B3
+        0x0020:  8ee8 0016 cb17 f8ce 9842 7b00 b11f 5018  .........B{...P.
+        0x0030:  01f5 f23a 0000 7797 0319 ff3b 9ff1 a2e9  ...:..w....;....
+        0x0040:  a2a9 a907 b162 da78 7536 7068 7370 2515  .....b.xu6phsp%.
+        0x0050:  9642 6d3a 6277 36f5 fdb4                 .Bm:bw6...
+18:20:00.879833 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 144:252, ack 1, win 501, length 108
+        0x0000:  fe00 0000 0101 9e34 6cfe 6e9e 0800 4510  .......4l.n...E.
+        0x0010:  0094 ee85 4000 4006 59d2 8ac5 961b 4233  ....@.@.Y.....B3
+        0x0020:  8ee8 0016 cb17 f8ce 9866 7b00 b11f 5018  .........f{...P.
+        0x0030:  01f5 f282 0000 9f31 9467 1de1 7d0a 4107  .......1.g..}.A.
+        0x0040:  bb38 e880 c617 7d01 3562 3dd0 0a52 0f62  .8....}.5b=..R.b
+        0x0050:  016f 3856 d89c 074c 6886 71d1 6f03 9957  .o8V...Lh.q.o..W
+        0x0060:  bb09 b5e6 f3cc 79d2 fcf9 d47e e65c 6a7b  ......y....~.\j{
+        0x0070:  0613 3fdd d383 02ae 3cee 89df 45d7 16a7  ..?.....<...E...
+        0x0080:  c152 f5ad 7dc2 3d3b 30f2 e653 8c1d 0606  .R..}.=;0..S....
+        0x0090:  2876 95ba 0d8b 779b 8fb5 5ac9 be49 6752  (v....w...Z..IgR
+        0x00a0:  377e                                     7~
+18:20:00.879863 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 252:288, ack 1, win 501, length 36
+        0x0000:  fe00 0000 0101 9e34 6cfe 6e9e 0800 4510  .......4l.n...E.
+        0x0010:  004c ee86 4000 4006 5a19 8ac5 961b 4233  .L..@.@.Z.....B3
+        0x0020:  8ee8 0016 cb17 f8ce 98d2 7b00 b11f 5018  ..........{...P.
+        0x0030:  01f5 f23a 0000 ecb3 72a5 3127 3ea1 19c7  ...:....r.1'>...
+        0x0040:  49eb 31e3 259c c05c ff3e 5495 d503 0574  I.1.%..\.>T....t
+        0x0050:  25ee 2b92 b57f a2ca 9908                 %.+.......
+18:20:00.880206 IP 138.197.150.27.55999 > dns.google.domain: 5169+ PTR? 232.142.51.66.in-addr.arpa. (44)
+        0x0000:  fe00 0000 0101 9e34 6cfe 6e9e 0800 4500  .......4l.n...E.
+        0x0010:  0048 b366 4000 4011 564e 8ac5 961b 0808  .H.f@.@.VN......
+        0x0020:  0808 dabf 0035 0034 3136 1431 0100 0001  .....5.416.1....
+        0x0030:  0000 0000 0000 0332 3332 0331 3432 0235  .......232.142.5
+        0x0040:  3102 3636 0769 6e2d 6164 6472 0461 7270  1.66.in-addr.arp
+        0x0050:  6100 000c 0001                           a.....
+5 packets captured
+15 packets received by filter
+0 packets dropped by kernel

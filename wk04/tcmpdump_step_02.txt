@@ -1,0 +1,11 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:15:42.087939 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4164320346:4164320382, ack 2063628615, win 501, length 36
+18:15:42.089398 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 36:144, ack 1, win 501, length 108
+18:15:42.089465 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 144:180, ack 1, win 501, length 36
+18:15:42.089513 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 180:288, ack 1, win 501, length 108
+18:15:42.089977 IP 138.197.150.27.59143 > dns.google.domain: 6280+ PTR? 232.142.51.66.in-addr.arpa. (44)
+5 packets captured
+16 packets received by filter
+0 packets dropped by kernel

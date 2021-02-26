@@ -1,0 +1,30 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:08:36.283389 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4164313522:4164313630, ack 2063627239, win 501, length 108
+18:08:36.283467 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 108:144, ack 1, win 501, length 36
+18:08:36.283512 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 144:252, ack 1, win 501, length 108
+18:08:36.283542 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 252:288, ack 1, win 501, length 36
+18:08:36.283894 IP 138.197.150.27.40662 > dns.google.domain: 45733+ PTR? 232.142.51.66.in-addr.arpa. (44)
+18:08:36.361718 IP 66.51.142.232.tpia.ylw.cipherkey.com.51991 > 138.197.150.27.ssh: Flags [.], ack 108, win 6201, length 0
+18:08:36.361751 IP 66.51.142.232.tpia.ylw.cipherkey.com.51991 > 138.197.150.27.ssh: Flags [.], ack 252, win 6200, length 0
+18:08:36.370519 IP dns.google.domain > 138.197.150.27.40662: 45733 1/0/0 PTR 66.51.142.232.tpia.ylw.cipherkey.com. (94)
+18:08:36.370762 IP 138.197.150.27.40711 > dns.google.domain: 49014+ PTR? 27.150.197.138.in-addr.arpa. (45)
+18:08:36.390564 IP dns.google.domain > 138.197.150.27.40711: 49014 NXDomain 0/1/0 (112)
+18:08:36.390793 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 288:484, ack 1, win 501, length 196
+18:08:36.390851 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 484:520, ack 1, win 501, length 36
+18:08:36.390896 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 520:692, ack 1, win 501, length 172
+18:08:36.390928 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 692:728, ack 1, win 501, length 36
+18:08:36.390967 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 728:900, ack 1, win 501, length 172
+18:08:36.390999 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 900:936, ack 1, win 501, length 36
+18:08:36.391038 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 936:1108, ack 1, win 501, length 172
+18:08:36.391069 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 1108:1144, ack 1, win 501, length 36
+18:08:36.391184 IP 138.197.150.27.51504 > dns.google.domain: 65281+ PTR? 8.8.8.8.in-addr.arpa. (38)
+18:08:36.392139 IP dns.google.domain > 138.197.150.27.51504: 65281 1/0/0 PTR dns.google. (62)
+18:08:36.392291 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 1144:1284, ack 1, win 501, length 140
+18:08:36.401887 IP 66.51.142.232.tpia.ylw.cipherkey.com.51991 > 138.197.150.27.ssh: Flags [.], ack 288, win 6200, length 0
+18:08:36.401946 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 1284:4204, ack 1, win 501, length 2920
+^C
+23 packets captured
+25 packets received by filter
+0 packets dropped by kernel

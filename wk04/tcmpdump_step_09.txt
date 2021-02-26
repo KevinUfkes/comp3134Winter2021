@@ -1,0 +1,39 @@
+root@lamp-ubuntu-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:26:47.708081 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4180456666:4180456774, ack 2063654787, win 501, length 108
+18:26:47.708152 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 108:144, ack 1, win 501, length 36
+18:26:47.708202 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 144:252, ack 1, win 501, length 108
+18:26:47.708237 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 252:288, ack 1, win 501, length 36
+18:26:47.718027 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 288:484, ack 1, win 501, length 196
+18:26:47.718113 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 484:520, ack 1, win 501, length 36
+18:26:47.718195 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 520:692, ack 1, win 501, length 172
+18:26:47.718242 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 692:728, ack 1, win 501, length 36
+18:26:47.718299 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 728:900, ack 1, win 501, length 172
+18:26:47.782822 IP 66.51.142.232.tpia.ylw.cipherkey.com.51991 > 138.197.150.27.ssh: Flags [.], ack 252, win 6203, length 0
+18:26:47.782887 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 900:2184, ack 1, win 501, length 1284
+18:26:47.783057 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 2184:2340, ack 1, win 501, length 156
+18:26:47.783098 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 2340:2376, ack 1, win 501, length 36
+18:26:47.783144 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 2376:2548, ack 1, win 501, length 172
+18:26:47.783179 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 2548:2584, ack 1, win 501, length 36
+18:26:47.783223 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 2584:2756, ack 1, win 501, length 172
+18:26:47.783257 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 2756:2792, ack 1, win 501, length 36
+18:26:47.783300 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 2792:2964, ack 1, win 501, length 172
+18:26:47.793053 IP 66.51.142.232.tpia.ylw.cipherkey.com.51991 > 138.197.150.27.ssh: Flags [.], ack 692, win 6201, length 0
+18:26:47.793112 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 2964:4040, ack 1, win 501, length 1076
+18:26:47.793129 IP 66.51.142.232.tpia.ylw.cipherkey.com.51991 > 138.197.150.27.ssh: Flags [.], ack 900, win 6201, length 0
+18:26:47.793274 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4040:4196, ack 1, win 501, length 156
+18:26:47.793321 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4196:4232, ack 1, win 501, length 36
+18:26:47.793366 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4232:4404, ack 1, win 501, length 172
+18:26:47.793400 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4404:4440, ack 1, win 501, length 36
+18:26:47.793455 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4440:4596, ack 1, win 501, length 156
+18:26:47.793497 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4596:4632, ack 1, win 501, length 36
+18:26:47.793553 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4632:4804, ack 1, win 501, length 172
+18:26:47.793590 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4804:4840, ack 1, win 501, length 36
+18:26:47.793631 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 4840:5012, ack 1, win 501, length 172
+18:26:47.793664 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 5012:5048, ack 1, win 501, length 36
+18:26:47.793704 IP 138.197.150.27.ssh > 66.51.142.232.tpia.ylw.cipherkey.com.51991: Flags [P.], seq 5048:5220, ack 1, win 501, length 172
+^C
+32 packets captured
+33 packets received by filter
+0 packets dropped by kernel
